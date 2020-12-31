@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    // this function saves items by writing them into the data file
+    // this function saves items by writing them into the data ssdfile
     private void saveItems() {
         try {
             FileUtils.writeLines(getDataFile(), items);
